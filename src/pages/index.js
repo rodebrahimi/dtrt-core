@@ -8,46 +8,34 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
+    text: "US Made Supply",
+    url: "https://usmadesupply.com",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "A unique new way to find specialty US-made building products and related tools. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
   },
   {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
+    text: "Title24Roof",
+    url: "https://title24roof.com",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "Title 24 mandates energy-smart building in California, pushing for 'cool roofs' that bounce back sunlight. White reflective roof coatings enable this energy-saving action.",
   },
   {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
+    text: "US Made LLC",
+    url: "https://usmadellc.com",
     description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
+      "Scaling and supporting long-lasting US-based specialty building product brands.",
   },
   {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
+    text: "Deck Flex",
+    url: "https://deckflex.com",
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "TetraCrete-based deck waterproofing systems and related products made in the USA.",
   },
-]
-
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
 ]
 
 const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
+  { text: "Get Featured", url: "#" },
+/**
   {
     text: "Documentation",
     url: "https://gatsbyjs.com/docs/",
@@ -65,36 +53,17 @@ const moreLinks = [
     url: "https://www.gatsbyjs.com/contributing/",
   },
   { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
+**/
 ]
 
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+const utmParameters = `?utm_source=dtrt&utm_medium=featured-page&utm_campaign=test`
 
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
       <h1>
-        Welcome to <b>Gatsby!</b>
+      <b>A few featured teams and companies we like:</b>
       </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
     </div>
     <ul className={styles.list}>
       {links.map(link => (

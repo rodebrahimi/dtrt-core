@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
+          © {new Date().getFullYear()} &middot; Curated by <a href="https://rod.ebrahimi.org">Rod</a> and built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>

@@ -64,7 +64,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <h1>
-      <b>A few featured teams and companies we like:</b>
+      <b>Featured teams and companies:</b>
       </h1>
     </div>
     <ul className={styles.list}>

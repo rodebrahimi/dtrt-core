@@ -47,6 +47,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-robots-txt',
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

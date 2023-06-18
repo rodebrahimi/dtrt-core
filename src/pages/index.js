@@ -16,7 +16,7 @@ const links = [
       "A unique new way to find specialty US-made building products and related tools. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
   },
   {
-    text: "Title 24 Roof",
+    text: "White Roof Coating",
     url: "https://title24roof.com",
     description:
       "Title 24 mandates energy-smart building in California, pushing for 'cool roofs' that bounce back sunlight. White reflective roof coatings enable this energy-saving action.",

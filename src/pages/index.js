@@ -22,12 +22,6 @@ const links = [
       "Title 24 mandates energy-smart building in California, pushing for 'cool roofs' that bounce back sunlight. White reflective roof coatings enable this energy-saving action.",
   },
   {
-    text: "US Made LLC",
-    url: "https://usmadellc.com",
-    description:
-      "Scaling and supporting long-lasting US-based specialty building product brands.",
-  },
-  {
     text: "Deck Flex",
     url: "https://deckflex.com",
     description:

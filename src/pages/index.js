@@ -10,19 +10,19 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "US Made Supply",
+    text: "US Made Building Products",
     url: "https://usmadesupply.com",
     description:
       "A unique new way to find specialty US-made building products and related tools. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
   },
   {
-    text: "Title24Roof",
+    text: "Title 24 Roof",
     url: "https://title24roof.com",
     description:
       "Title 24 mandates energy-smart building in California, pushing for 'cool roofs' that bounce back sunlight. White reflective roof coatings enable this energy-saving action.",
   },
   {
-    text: "Deck Flex",
+    text: "Deck Waterproofing",
     url: "https://deckflex.com",
     description:
       "TetraCrete-based deck waterproofing systems and related products made in the USA.",
@@ -58,7 +58,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <h1>
-      <b>Featured teams and companies:</b>
+      <b>Currently Featured Teams and Companies:</b>
       </h1>
     </div>
     <ul className={styles.list}>

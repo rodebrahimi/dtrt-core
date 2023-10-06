@@ -27,6 +27,12 @@ const links = [
     description:
       "TetraCrete-based deck waterproofing systems and related products made in the USA.",
   },
+  {
+    text: "RazorHop",
+    url: "https://razorhop.com",
+    description:
+      "The best way for any type of healthcare practitioner to build and grow a virtual practice.",
+  },
 ]
 
 const moreLinks = [

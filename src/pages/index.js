@@ -22,7 +22,7 @@ const links = [
       "TetraCrete-based deck waterproofing systems and related products made in the USA.",
   },
   {
-    text: "White Roof Coating",
+    text: "Elastomeric Roof Coatings",
     url: "https://title24roof.com",
     description:
       "Title 24 mandates energy-smart building in California, pushing for 'cool roofs' that bounce back sunlight. White reflective roof coatings enable this energy-saving action.",
@@ -31,7 +31,7 @@ const links = [
     text: "Deck Paint",
     url: "https://bestdeckpaint.com",
     description:
-      "Best deck coating and deck paint options.",
+      "Explore US-made deck coating and deck paint options.",
   },
   /**
   {

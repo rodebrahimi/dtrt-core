@@ -13,7 +13,7 @@ const links = [
     text: "US Made Building Products",
     url: "https://usmadesupply.com",
     description:
-      "A unique new way to find specialty US-made building products and related tools. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
+      "Specialty US-made building products and related tools. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
   },
   {
     text: "White Roof Coating",
@@ -27,6 +27,12 @@ const links = [
     description:
       "TetraCrete-based deck waterproofing systems and related products made in the USA.",
   },
+  {
+    text: "Deck Paint",
+    url: "https://bestdeckpaint.com",
+    description:
+      "Best deck coating and deck paint options.",
+  },
   /**
   {
     text: "RazorHop",
@@ -38,7 +44,7 @@ const links = [
 ]
 
 const moreLinks = [
-  { text: "Get Featured", url: "#" },
+  { text: "Get Featured Here", url: "#" },
 /**
   {
     text: "Documentation",

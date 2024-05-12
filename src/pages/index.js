@@ -10,7 +10,7 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "US Made Roofing, Decking & Building Products",
+    text: "Roofing, Decking & Building Products",
     url: "https://usmadesupply.com",
     description:
       "Specialty US-made building and construction products. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
@@ -44,8 +44,8 @@ const links = [
 ]
 
 const moreLinks = [
-  { text: "Get Featured", url: "mailto:hello@dotherightthing.com" },
 /**
+  { text: "Get Featured", url: "mailto:hello@dotherightthing.com" },
   {
     text: "Documentation",
     url: "https://gatsbyjs.com/docs/",
@@ -70,10 +70,9 @@ const utmParameters = `?utm_source=dtrt&utm_medium=featured-page&utm_campaign=te
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
-      <h1>
-      <b>Currently Featured Teams and Companies:</b>
-      </h1>
+    <div>
+      <h1>Featured Teams and Companies</h1>
+      <p>Selected sites and products that are made in the USA, or that are otherwise of interest to the DTRT community. To have your product or company considered, please <a href="mailto:hello@dotherightthing.com">send an email</a>.</p>
     </div>
     <ul className={styles.list}>
       {links.map(link => (

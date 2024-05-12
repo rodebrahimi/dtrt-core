@@ -44,7 +44,7 @@ const links = [
 ]
 
 const moreLinks = [
-  { text: "Get Featured Here", url: "#" },
+  { text: "Get Featured", url: "mailto:hello@dotherightthing.com" },
 /**
   {
     text: "Documentation",
@@ -102,6 +102,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="DTRT Featured Sites" />
 
 export default IndexPage

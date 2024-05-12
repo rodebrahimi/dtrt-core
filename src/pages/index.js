@@ -10,22 +10,22 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "US Made Building Products",
+    text: "US Made Roofing, Decking & Building Products",
     url: "https://usmadesupply.com",
     description:
-      "Specialty US-made building products and related tools. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
-  },
-  {
-    text: "White Roof Coating",
-    url: "https://title24roof.com",
-    description:
-      "Title 24 mandates energy-smart building in California, pushing for 'cool roofs' that bounce back sunlight. White reflective roof coatings enable this energy-saving action.",
+      "Specialty US-made building and construction products. US-made products often stand out for their quality and durability, offering value for both contractors and homeowners.",
   },
   {
     text: "Deck Waterproofing",
     url: "https://deckflex.com",
     description:
       "TetraCrete-based deck waterproofing systems and related products made in the USA.",
+  },
+  {
+    text: "White Roof Coating",
+    url: "https://title24roof.com",
+    description:
+      "Title 24 mandates energy-smart building in California, pushing for 'cool roofs' that bounce back sunlight. White reflective roof coatings enable this energy-saving action.",
   },
   {
     text: "Deck Paint",
